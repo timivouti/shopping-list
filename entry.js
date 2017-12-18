@@ -8,7 +8,7 @@ var app = express();
 
 const route = require('./route/routes');
 
-mongoose.connect('mongodb://user:user123@ds159696.mlab.com:59696/shoppinglist', {
+mongoose.connect('mongodb://user:password@url/shoppinglist', {
         useMongoClient: true
 });
 
